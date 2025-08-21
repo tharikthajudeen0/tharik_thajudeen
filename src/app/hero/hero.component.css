@@ -1,0 +1,7 @@
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 25px 10px rgba(128,90,213,0.3); }
+  50% { box-shadow: 0 0 35px 15px rgba(128,90,213,0.5); }
+}
+.animate-glow {
+  animation: glow 4s ease-in-out infinite;
+}
